@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/qsaf-framework-ghpages/',
-  plugins: [react()]
+  base: '', // ✅ Vercel requires this to be empty
+  plugins: [react()],
 });
